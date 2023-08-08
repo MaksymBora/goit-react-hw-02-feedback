@@ -4,6 +4,7 @@ import { Statistics } from './Statistic/Statistics';
 import { Section } from './SectionWrapper/Section'
 import { Notification } from './Notification/Notification'
 
+
 export class App extends Component  {
   state = {
   good: 0,
@@ -35,6 +36,7 @@ export class App extends Component  {
     const { good, neutral, bad } = this.state;
     const options = ['good', 'neutral', 'bad'];
     return (
+      
       this.countTotalFeedback() === 0 ? <Section title="Please leave feedback">
   <FeedbackOptions clickFeedback={this.handleFeedback} options={options} />
         <Section title="Statistics">
