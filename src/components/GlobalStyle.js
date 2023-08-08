@@ -6,7 +6,13 @@ body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #fff;
+
+	background: linear-gradient(to right, #a1ffce, #faffd1);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+	color: #000;
   }
 
 code {
